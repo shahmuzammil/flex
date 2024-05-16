@@ -1,4 +1,6 @@
-.grid-container{
+.body {}
+
+.grid-container {
     display: grid;
     grid-gap: 50px 100px;
     grid-template-columns: sauto auto auto auto;
@@ -6,7 +8,8 @@
     padding: 10px;
     margin-bottom: 40px;
 }
-.grid-item{
+
+.grid-item {
     background-color: rgb(80, 202, 202);
     border: 1px solid chartreuse;
     padding: 20px;
@@ -14,15 +17,15 @@
     text-align: center;
 }
 
-.item{
+.item {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: j;
 
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: j;
 }
 
-.flex-container:{
+.flex-container {
     display: flex;
     align-items: baseline;
     background-color: blueviolet;
@@ -31,7 +34,8 @@
     height: 500px;
 }
 
-.flex-item{background-color: cyan;
+.flex-item {
+    background-color: cyan;
     background-color: brown;
     border: 1px solid rgba(rgb116, 93, 197);
     padding: 20px;
@@ -42,4 +46,7 @@
 
 
 
+.flex-container {
+    font-size: 50px;
+}
 
